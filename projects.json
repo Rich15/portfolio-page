@@ -1,0 +1,11 @@
+{
+    "projects": [
+        {
+            "name": "Local Inventory Web App",
+            "photo": "",
+            "live-site": "https://mybiz.netlify.app/",
+            "repo": "https://github.com/Rich15/inventory_app",
+            "full-description": ""        
+        }
+    ]
+}
