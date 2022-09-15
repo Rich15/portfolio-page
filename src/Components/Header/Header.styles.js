@@ -25,10 +25,10 @@ export const Content = styled.div`
 
     li {
       margin: auto 15px;
-      font-size: 1.2rem;
+      font-size: 1rem;
 
       @media screen and (min-width: 700px) {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
       }
     }
 
@@ -49,6 +49,11 @@ export const Content = styled.div`
 export const Logo = styled.img`
   height: 70px;
   width: 70px;
+
+  :hover, :focus {
+    filter: drop-shadow(0 0 10px black);
+  }
+
 
   @media screen and (min-width: 1000px) {
     width: 110px;

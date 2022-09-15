@@ -4,7 +4,9 @@ const GlobalStyles = createGlobalStyle`
   :root {
     font-size: 16px;
     --darkBlue: hsl(214, 60%, 5%);
-    --veryLightBlue: hsl(150, 41%, 95%);
+    --veryLightBlue: hsl(150, 41%, 97%);
+    --brightGreen: hsl(103, 82%, 60%);
+    --mediumGreen: hsl(103, 82%, 30%)
   }
 
   body {
