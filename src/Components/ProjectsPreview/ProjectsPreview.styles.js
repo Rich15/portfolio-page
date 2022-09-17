@@ -19,12 +19,11 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 3px;
+  padding: 7px;
 
   h2 {
     color: hsl(0, 50%, 5%);
     margin: 18px auto;
-    font-size: 1.6rem;
   }
 
   .img-right {
@@ -36,12 +35,12 @@ export const Content = styled.div`
     margin: 20px 0;
     text-decoration: none;
     text-align: center;
-    color: hsl(0, 0%, 5%);
-    border: 2px solid hsl(104, 80%, 20%);
+    color: hsl(0, 0%, 95%);
     border-radius: 7px;
-    padding: 5px;
+    padding: 5px 10px;
     font-weight: 700;
     font-size: 1.1rem;
+    background-color: hsl(104, 80%, 20%);
     transition: 0.4s;
     text-transform: uppercase;
     letter-spacing: 1.2px;
@@ -51,10 +50,9 @@ export const Content = styled.div`
       text-shadow: 0 0 20px var(--brightGreen);
       text-decoration: none;
       color: hsl(104, 80%, 100%);
-      border: 2px solid transparent;
       outline: 2px solid transparent;
       box-shadow: 0 0 10px hsl(0, 0%, 10%);
-      background-color: hsl(104, 80%, 20%);
+      background-color: hsl(104, 80%, 40%);
       text-align: 1s;
     }
   }

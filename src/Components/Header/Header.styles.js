@@ -47,8 +47,8 @@ export const Content = styled.div`
 `;
 
 export const Logo = styled.img`
-  height: 70px;
   width: 70px;
+  height: auto;
 
   :hover, :focus {
     filter: drop-shadow(0 0 10px black);

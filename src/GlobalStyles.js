@@ -16,12 +16,20 @@ const GlobalStyles = createGlobalStyle`
 
   * {
     box-sizing: border-box;
-    line-height: 1.5;
+    line-height: 1.7;
   }
 
   h1, h2 {
     font-family: Cabin, Helvetica, sans-serif;
     margin: 0;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+
+    @media screen and (min-width: 1000px) {
+      font-size: 2.2rem;
+    }
   }
 
   h3 {

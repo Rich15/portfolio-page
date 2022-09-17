@@ -1,18 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // Images
-import LogoImg from "../../../images/logo.svg";
+import LogoImg from "../../../images/logo-header.svg";
 // Styles
 import { Wrapper, Content, Logo } from "./Header.styles";
 
 const Header = () => (
-  <Wrapper>
+  <Wrapper id="header">
     <Content>
       <Link to="/">
         <Logo
           src={LogoImg}
           alt="Logo with the name Ricardo Osio"
           title="Home"
+          width="70"
+          height="13"
         />
       </Link>
       <ul>

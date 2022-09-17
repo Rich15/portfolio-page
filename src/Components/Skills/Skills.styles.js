@@ -44,9 +44,38 @@ export const Skill = styled.div`
   padding: 10px;
   margin: 10px auto;
   width: 100%;
+  border-collapse: collapse;
+  transition: 1s;
+
+  :hover {
+    animation: border-appear 2s forwards;
+    transform: scale(1.1, 1.1);
+  }
+
+  @keyframes border-appear {
+    0% {
+      border-left: 4px solid var(--brightGreen);
+    }
+
+    25% {
+      border-top: 4px solid var(--brightGreen);
+    }
+
+    50% {
+      border-right: 4px solid var(--brightGreen);
+    }
+
+    75% {
+      border-bottom: 4px solid var(--brightGreen);
+    }
+
+    100% {
+      border: 4px solid var(--brightGreen);
+    }
+  }
 
   @media screen and (min-width: 700px) {
-    margin: auto 10px;
+    margin: auto 13px;
   }
 
   img {

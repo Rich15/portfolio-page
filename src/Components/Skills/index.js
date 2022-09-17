@@ -11,16 +11,31 @@ const Skills = () => (
     <Content>
       <h2>What I do Better</h2>
       <SkillsContainer>
-        <Skill>
-          <img src={WebsiteImg} alt="" />
+        <Skill title="Website Building">
+          <img
+            src={WebsiteImg}
+            alt="Animated website icon"
+            width="100"
+            height="100"
+          />
           <h3>Website Building</h3>
         </Skill>
-        <Skill>
-          <img src={CommunicationImg} alt="" />
+        <Skill title="Communicating">
+          <img
+            src={CommunicationImg}
+            alt="Two text bubbles icon"
+            width="100"
+            height="100"
+          />
           <h3>Communicating</h3>
         </Skill>
-        <Skill>
-          <img src={AccessibilityImg} alt="" />
+        <Skill title="Accessibility">
+          <img
+            src={AccessibilityImg}
+            alt="Accessibility icon"
+            width="100"
+            height="100"
+          />
           <h3>Accessibility</h3>
         </Skill>
       </SkillsContainer>
