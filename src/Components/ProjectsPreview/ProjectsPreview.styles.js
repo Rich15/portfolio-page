@@ -142,7 +142,7 @@ export const ProjectPreview = styled.div`
     flex-direction: column;
     align-items: center;
     width: 50%;
-    padding: 10px;
+    padding: 15px;
 
     @media screen and (min-width: 800px) {
       display: flex;
@@ -151,7 +151,13 @@ export const ProjectPreview = styled.div`
     }
   }
 
+  h3 {
+    font-size: 1.35rem;
+  }
+
   p {
     margin: 0 auto;
+    font-size: 1rem;
+    text-align: center;
   }
 `;

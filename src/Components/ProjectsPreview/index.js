@@ -15,10 +15,8 @@ const ProjectsPreview = () => (
         <div className="text-container">
           <h3>Advice Generator</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            ultrices velit sit amet venenatis pretium. Praesent mollis, enim
-            eget vulputate ornare, urna nisi sodales sapien, vel tristique urna
-            elit sed magna.
+            A Frontend Mentor challenge, this page generates random advices with
+            the help of the Advice Slip API. Click for more info!
           </p>
         </div>
       </ProjectPreview>
@@ -27,11 +25,9 @@ const ProjectsPreview = () => (
         <div className="text-container">
           <h3>Local Inventory App</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            ultrices velit sit amet venenatis pretium. Praesent mollis, enim
-            eget vulputate ornare, urna nisi sodales sapien, vel tristique urna
-            elit sed magna. Nunc ligula tellus, tempus ut dignissim at, ornare
-            quis lectus.
+            Created for a small business, this Website built with ReactJS keeps
+            track of various products and sales on a local inventory. Click for
+            more info!
           </p>
         </div>
       </ProjectPreview>
@@ -40,10 +36,8 @@ const ProjectsPreview = () => (
         <div className="text-container">
           <h3>Movies DB Site</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            ultrices velit sit amet venenatis pretium. Praesent mollis, enim
-            eget vulputate ornare, urna nisi sodales sapien, vel tristique urna
-            elit sed magna. Nunc ligula tellus.
+            Built with ReactJS, this WebApp lists information from thousands of
+            movies from The Movie DataBase. Click for more info!
           </p>
         </div>
       </ProjectPreview>
