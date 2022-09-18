@@ -6,7 +6,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.13",
@@ -25,7 +26,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --config webpack.config.js --open"
+    "start": "webpack serve --config webpack.config.js --open",
+    "build": "webpack --config prod.config.js"
   },
   "keywords": [],
   "author": "",
