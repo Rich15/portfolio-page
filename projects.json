@@ -1,11 +1,28 @@
 {
     "projects": [
         {
+            "id": "0001",
             "name": "Local Inventory Web App",
-            "photo": "",
+            "photo": "https://i.ibb.co/LZbp4Bk/captura-mybiz-mobile.jpg",
             "live-site": "https://mybiz.netlify.app/",
             "repo": "https://github.com/Rich15/inventory_app",
-            "full-description": ""        
+            "full-description": ""       
+        },
+        {
+            "id": "0002",
+            "name": "Advice Generator",
+            "photo": "https://i.ibb.co/y4WZVcD/captura-ineedadvices-mobile.jpg",
+            "live-site": "https://ineedadvices.netlify.app",
+            "repo": "https://github.com/Rich15/advice-generator-app-main",
+            "full-description": ""
+        },
+        {
+            "id": "0003",
+            "name": "Movies DB site",
+            "photo": "https://i.ibb.co/5R6rndW/captura-viewmoviesdb-mobile.jpg",
+            "live-site": "https://viewmoviesdb.netlify.app",
+            "repo": "https://github.com/Rich15/movies-db-react",
+            "full-description": ""
         }
     ]
 }
