@@ -30,6 +30,7 @@ export const Content = styled.div`
     ),
     url(${BannerImgMobile});
     background-repeat: no-repeat;
+    background-size: cover;
 
   @media screen and (min-width: 700px) and (max-width: 1200px) {
     background-image: linear-gradient(

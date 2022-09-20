@@ -152,12 +152,20 @@ export const ProjectPreview = styled.div`
   }
 
   h3 {
-    font-size: 1.35rem;
+    font-size: 1rem;
+
+    @media screen and (min-width: 700px) {
+      font-size: 1.35rem;
+    }
   }
 
   p {
     margin: 0 auto;
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-align: center;
+
+    @media screen and (min-width: 700px) {
+      font-size: 1rem;
+    }
   }
 `;
