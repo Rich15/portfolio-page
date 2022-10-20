@@ -7,7 +7,8 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, "dist")
+    path: path.resolve(__dirname, "dist"),
+    publicPath: "/"
   },
   module: {
     rules: [
@@ -25,7 +26,7 @@ module.exports = {
         use: ["style-loader", "css-loader"]
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpe?g|gif|woff|woff2|otf|ttf)$/i,
         use: "file-loader"
       },
       {
@@ -37,7 +38,7 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     static: "./dist",
-    historyApiFallback: true
+    historyApiFallback: true,
   },
   plugins: [
     new HTMLWebPackPlugin({

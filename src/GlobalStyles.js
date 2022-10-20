@@ -1,12 +1,26 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
+  @font-face {
+    font-family: "Bebas Neue";
+    src: local("BebasNeue-Regular") url("/src/fonts/BebasNeue-Regular.woff") format("woff"),
+    url("./fonts/BebasNeue-Regular.woff2") format("woff2"),
+    url("./fonts/BebasNeue-Regular.ttf") format("truetype"),
+    url("./fonts/BebasNeue-Regular.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "Timeless";
+    src: local("Timeless") url("./fonts/Timeless.ttf") format("truetype");
+  }
+
   :root {
     font-size: 16px;
     --darkBlue: hsl(214, 60%, 5%);
     --veryLightBlue: hsl(150, 41%, 97%);
     --brightGreen: hsl(103, 82%, 60%);
-    --mediumGreen: hsl(103, 82%, 30%)
+    --mediumGreen: hsl(103, 82%, 30%);
+    --shadow: 0 1px 15px hsla(130, 30%, 5%, 0.7)
   }
 
   body {
@@ -20,7 +34,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h1, h2 {
-    font-family: Cabin, Helvetica, sans-serif;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
     margin: 0;
   }
 
@@ -37,7 +51,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   p, a {
-    font-family: Gudea, 'Times New Roman', serif;
+    font-family: 'Timeless', 'Times New Roman', serif;
   }
 `;
 

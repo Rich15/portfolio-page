@@ -8,17 +8,25 @@ export const Content = styled.div`
   align-items: center;
 
   a {
-    box-shadow: 0 0 10px hsl(200, 10%, 5%);
+    box-shadow: var(--shadow);
     border: 1px solid hsla(200, 10%, 5%, 0.6);
     border-radius: 12px;
-    
+    position: relative;
+
+    :focus,
+    :active {
+      outline: 1px solid hsl(200, 30%, 15%);
+    }
+
     img {
       width: 100%;
       height: 100%;
       border-radius: 12px;
       transition: 0.8s;
 
-      :hover, :focus, :active {
+      :hover,
+      :focus,
+      :active {
         transform: scale(1.05, 1.05);
         box-shadow: 0 0 10px hsl(200, 15%, 25%);
       }

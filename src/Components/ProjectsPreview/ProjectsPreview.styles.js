@@ -56,6 +56,12 @@ export const Content = styled.div`
       text-align: 1s;
     }
   }
+
+  .project {
+    text-decoration: none;
+    color: black;
+    width: 97%;
+  }
 `;
 
 export const ProjectPreview = styled.div`
@@ -74,7 +80,7 @@ export const ProjectPreview = styled.div`
   :hover {
     transform: scale(1, 1.1);
     cursor: pointer;
-    box-shadow: 0 0 15px black;
+    box-shadow: var(--shadow);
   }
 
   .img-container {
